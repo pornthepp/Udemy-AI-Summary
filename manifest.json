@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Udemy AI Summarizer (Gemini)",
+    "version": "1.2",
+    "description": "Extract English subtitles from Udemy and summarize with Gemini AI.",
+    "permissions": [
+        "sidePanel",
+        "activeTab",
+        "storage",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://www.udemy.com/*",
+        "https://generativelanguage.googleapis.com/*"
+    ],
+    "action": {
+        "default_title": "Open AI Summary"
+    },
+    "side_panel": {
+        "default_path": "sidepanel.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    }
+}
