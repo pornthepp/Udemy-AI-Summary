@@ -1,4 +1,5 @@
 # Udemy AI Summarizer (Gemini)
+![Uploading image.png…]()
 
 ส่วนขยาย Chrome สำหรับช่วยสรุปเนื้อหาคอร์สเรียน Udemy ด้วย AI (Gemini)
 เวอร์ชัน: 1.2
@@ -40,3 +41,4 @@
 
 *   ต้องใช้งานกับวิดีโอที่มีคำบรรยาย (Subtitle/Transcript) เท่านั้น
 *   API Key สามารถขอได้ฟรีที่ [Google AI Studio](https://aistudio.google.com/)
+
